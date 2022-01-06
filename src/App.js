@@ -7,16 +7,16 @@ export default function App() {
     <div>
  <p>Calculadora Básica Utilizando REACT</p>
 
-      {/*
-      <ButtonBlack
-      label='1'
+      
+      <Button
+      label='C'
       />
       <Button
-      label='1'/>
+      label='<'/>
       <Button
-      label='1'/>
+      label='.'/>
       <Button
-      label='1'/>*/}
+      label='*'/>
     </div>
   );
 }
