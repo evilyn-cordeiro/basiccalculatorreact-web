@@ -3,4 +3,5 @@ export const Container = styled.button`
  
 
 background-color:white;
+aling-itens:center
 `;
