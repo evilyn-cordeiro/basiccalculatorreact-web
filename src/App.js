@@ -34,7 +34,7 @@ export default function App() {
       </Styled.Row>
       <Styled.Row>
         <Styled.Button label='0' />
-        <Styled.Button label='=' />
+        <Styled.Button label='='/>
       </Styled.Row>
 
     </Styled.CalculatorBk>
