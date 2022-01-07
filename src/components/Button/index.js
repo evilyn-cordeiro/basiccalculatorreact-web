@@ -6,7 +6,6 @@ export default function Button({
   
   ...props
 }) {
-  console.log('zxcvbn', props);
   return (
     <Container {...props}>
       {label}
