@@ -1,14 +1,17 @@
 import { Button } from './components';
-import { CalculatorBk } from './app-style';
-
+import * as Styled from './app-style';
 
 export default function App() {
   return (
-    <CalculatorBk>
-      <Button label='C' name="x"/>
-      <Button label='<' />
-      <Button label='.' />
+    <Styled.CalculatorBk>
+      <Styled.DisplayResult></Styled.DisplayResult>
+      <Styled.Row>
+      <Styled.Button label='C'/>
+      <Styled.Button label='<' />
+      <Styled.Button label='.' />
+      <Styled.Button label='*' />
+      </Styled.Row>
       <Button label='*' />
-    </CalculatorBk>
+    </Styled.CalculatorBk>
   );
 }
