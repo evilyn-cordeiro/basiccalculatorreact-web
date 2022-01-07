@@ -2,6 +2,9 @@ import { Button } from './components';
 import * as Styled from './app-style';
 
 export default function App() {
+
+
+
   return (
     <Styled.CalculatorBk>
       <Styled.DisplayResult></Styled.DisplayResult>
@@ -28,6 +31,10 @@ export default function App() {
         <Styled.Button label='2' />
         <Styled.Button label='3' />
         <Styled.Button label='+' />
+      </Styled.Row>
+      <Styled.Row>
+        <Styled.Button label='0' />
+        <Styled.Button label='=' />
       </Styled.Row>
 
     </Styled.CalculatorBk>
