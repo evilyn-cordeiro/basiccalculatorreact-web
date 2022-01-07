@@ -13,8 +13,16 @@ export const CalculatorBk = styled.div`
 `
 
 export const Button = styled(Btn)`
-    heigth:50px;
-    width:50px;
+    eight: 45px;
+    width: 45px;
+    border: none;
+    margin: 5px;
+    font-size: 25px;
+    background-color:#7ADEF5;
+    border-radius: 5px;
+    color:#004B5C;
+    cursor:pointer;
+    box-shadow: 5px 0px 30px #002e38a2;
 `
 export const Row = styled.div`
     display:flex;

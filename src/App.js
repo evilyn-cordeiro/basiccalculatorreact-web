@@ -11,7 +11,19 @@ export default function App() {
       <Styled.Button label='.' />
       <Styled.Button label='*' />
       </Styled.Row>
-      <Button label='*' />
+      <Styled.Row>
+      <Styled.Button label='C'/>
+      <Styled.Button label='<' />
+      <Styled.Button label='.' />
+      <Styled.Button label='*' />
+      </Styled.Row>
+      <Styled.Row>
+      <Styled.Button label='C'/>
+      <Styled.Button label='<' />
+      <Styled.Button label='.' />
+      <Styled.Button label='*' />
+      </Styled.Row>
+      
     </Styled.CalculatorBk>
   );
 }
