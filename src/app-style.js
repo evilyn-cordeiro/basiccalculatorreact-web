@@ -3,8 +3,8 @@ import { Button } from "./components";
 
 export const CalculatorBk = styled.div`
 
-height: 450px;
-    width: 500px;
+    height: 500px;
+    width: 300px;
     background-color: #002e38;
     background-color: #002e38a2;
     box-shadow: 5px 10px 30px #021c22a2;
