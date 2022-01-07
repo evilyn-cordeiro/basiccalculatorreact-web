@@ -3,8 +3,8 @@ import { Button as Btn } from "./components";
 
 export const CalculatorBk = styled.div`
 
-    height: 500px;
-    width: 300px;
+    height: 350px;
+    width: 230px;
     background-color: #002e38;
     background-color: #002e38a2;
     box-shadow: 5px 10px 30px #021c22a2;
@@ -30,7 +30,14 @@ export const Row = styled.div`
 `
 
 export const DisplayResult = styled.div`
-    height: 100px;
-    width: 300px;  
-    background-color:white;
+    background-color: white;
+    width: 207px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+    overflow: hidden;
 `
