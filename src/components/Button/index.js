@@ -6,6 +6,7 @@ export default function Button({
   
   ...props
 }) {
+  console.log('fora')
   return (
     <Container {...props}>
       {label}
